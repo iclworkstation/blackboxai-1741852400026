@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Creative Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navigation -->
+    <nav class="bg-black text-white py-4">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <div class="flex items-center space-x-8">
+                <h1 class="text-2xl font-bold">FREEPIK</h1>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="hover:text-gray-300">AI Suite</a>
+                    <a href="#" class="hover:text-gray-300">Images</a>
+                    <a href="#" class="hover:text-gray-300">Icons</a>
+                    <a href="#" class="hover:text-gray-300">Videos</a>
+                    <a href="#" class="hover:text-gray-300">Templates</a>
+                    <a href="#" class="hover:text-gray-300">PSD</a>
+                    <a href="#" class="hover:text-gray-300">Mockups</a>
+                    <a href="#" class="hover:text-gray-300">3D Models</a>
+                    <a href="#" class="hover:text-gray-300">More</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-yellow-400 hover:text-yellow-300">Pricing</a>
+                <button class="bg-white text-black px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Sign in</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-[600px] bg-gradient-to-r from-gray-900 to-black text-white">
+        <div class="absolute inset-0 bg-[url('https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg')] bg-cover bg-center opacity-30"></div>
+        <div class="relative container mx-auto px-4 py-20">
+            <h1 class="text-5xl font-bold max-w-4xl mb-6">
+                All-in-one AI creative suite with the highest-quality assets
+            </h1>
+            <p class="text-xl mb-12 max-w-2xl">
+                Explore and create unique, on-brand visuals—images, video, audio, and more.
+            </p>
+            
+            <!-- Search Bar -->
+            <div class="max-w-4xl">
+                <div class="flex gap-4 mb-4">
+                    <button class="bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-100">
+                        <i class="fas fa-search mr-2"></i> Search
+                    </button>
+                    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700">
+                        <i class="fas fa-plus mr-2"></i> Create
+                    </button>
+                </div>
+                <div class="bg-white rounded-lg p-4 flex items-center">
+                    <i class="fas fa-search text-gray-400 mr-4"></i>
+                    <input type="text" placeholder="Search all assets" class="flex-1 outline-none text-black">
+                    <div class="flex items-center space-x-4">
+                        <button class="text-gray-400 hover:text-gray-600">
+                            <i class="fas fa-sliders-h"></i>
+                        </button>
+                        <button class="text-gray-400 hover:text-gray-600">
+                            <i class="fas fa-cog"></i>
+                        </button>
+                        <button class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- AI Image Generator -->
+                <div class="bg-gradient-to-br from-purple-600 to-pink-600 rounded-xl p-6 text-white">
+                    <h3 class="text-lg font-semibold mb-2">AI Image Generator</h3>
+                    <p class="text-sm mb-4">From words to images</p>
+                    <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg" alt="AI Generated Art" class="w-full h-48 object-cover rounded-lg">
+                </div>
+
+                <!-- AI Video Generator -->
+                <div class="bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl p-6 text-white">
+                    <div class="flex items-center mb-2">
+                        <h3 class="text-lg font-semibold">AI Video Generator</h3>
+                        <span class="ml-2 px-2 py-1 bg-white/20 rounded-full text-xs">NEW</span>
+                    </div>
+                    <p class="text-sm mb-4">Create stunning videos from text or images</p>
+                    <img src="https://images.pexels.com/photos/2544554/pexels-photo-2544554.jpeg" alt="Video Creation" class="w-full h-48 object-cover rounded-lg">
+                </div>
+
+                <!-- Reimagine -->
+                <div class="bg-gradient-to-br from-green-600 to-blue-600 rounded-xl p-6 text-white">
+                    <h3 class="text-lg font-semibold mb-2">Reimagine</h3>
+                    <p class="text-sm mb-4">Variations with AI</p>
+                    <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg" alt="AI Variations" class="w-full h-48 object-cover rounded-lg">
+                </div>
+
+                <!-- Upscale -->
+                <div class="bg-gradient-to-br from-orange-500 to-red-600 rounded-xl p-6 text-white">
+                    <h3 class="text-lg font-semibold mb-2">Upscale</h3>
+                    <p class="text-sm mb-4">Increase resolution and details</p>
+                    <img src="https://images.pexels.com/photos/1762851/pexels-photo-1762851.jpeg" alt="Upscale" class="w-full h-48 object-cover rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-semibold mb-4">Get 10 daily free downloads and access to AI tools</h2>
+            <button class="bg-black text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-900">
+                Sign up now
+            </button>
+        </div>
+    </section>
+
+    <!-- Asset Categories -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12">Millions of assets ready to go</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-blue-200">
+                        <i class="fas fa-vector-square text-blue-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">Vectors</span>
+                </a>
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-red-200">
+                        <i class="fas fa-camera text-red-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">Photos</span>
+                </a>
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-green-200">
+                        <i class="fas fa-paint-brush text-green-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">Illustrations</span>
+                </a>
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-yellow-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-yellow-200">
+                        <i class="fas fa-icons text-yellow-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">Icons</span>
+                </a>
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-purple-200">
+                        <i class="fas fa-video text-purple-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">Videos</span>
+                </a>
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-pink-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-pink-200">
+                        <i class="fas fa-file-alt text-pink-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">Templates</span>
+                </a>
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-indigo-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-indigo-200">
+                        <i class="fas fa-layer-group text-indigo-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">PSD</span>
+                </a>
+                <a href="#" class="flex flex-col items-center group">
+                    <div class="w-16 h-16 bg-teal-100 rounded-lg flex items-center justify-center mb-3 group-hover:bg-teal-200">
+                        <i class="fas fa-cube text-teal-600 text-2xl"></i>
+                    </div>
+                    <span class="text-sm font-medium">Mockups</span>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
